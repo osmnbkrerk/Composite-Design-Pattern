@@ -6,7 +6,7 @@ Osman Bekir Erik
 Composite tasarım kalıbı tekil component ve birbirinden farklı componentler grubunun hiyerarşik bir yapıda benzer şekilde hareket etmesini yani kendi içlerinde birbirlerinden farklı olan bir grup nesnenin sanki tek bir bütün nesneymiş gibi kullanılmasını bileşik kalıp sağlar.
 
  
-
+<img alt="kompozit diyagrami" src="https://github.com/osmnbkrerk/Composite-Design-Pattern/blob/main/resimler/diyagram1.png">
 Netbeans’e sonradan eklenebilen bir plugin olan easyUML’i kullanarak hazırladığım bir diyagram.  
 
 
@@ -20,7 +20,7 @@ Netbeans’e sonradan eklenebilen bir plugin olan easyUML’i kullanarak hazırl
 
 
 
- 
+ <img alt="kompozit diyagrami" src="https://github.com/osmnbkrerk/Composite-Design-Pattern/blob/main/resimler/diyagram2.png">
 Kompozit tasarım deseninin genel olarak gösterimi bu şekildedir.  
 Leaf,  Tekil objemizi temsil eder. Bizim örneğimizdeki Developer adlı sınıfa tekabül ediyor.  
 Composite, Component’ların bir araya gelerek oluşturuğu sınıftır. Yani Manager adlı sınıfımız Composite class’tır. 
@@ -217,7 +217,7 @@ Bu oluşturduğumuz çalışanları manager1’in altına koymak için manager1.
 
 Emp3 adında bir developer daha oluşturuyoruz. generalManager adlı çalışanımız emp3 ve manager1’i altına ekliyor ve sonuç olarak şöyle bir yapı ortaya çıkıyor. Biliyorum yazarak anlatınca çok açıklayıcı olmuyor bazen resimlerle de desteklemek gerekiyor. 
 
- 
+ <img alt="kompozit diyagrami" src="https://github.com/osmnbkrerk/Composite-Design-Pattern/blob/main/resimler/agacYapisi.png">
 Buna benzer bir yapının ortaya çıktığını söyleyebiliriz.
 
 
